@@ -74,7 +74,7 @@ CREATE TABLE Book(
 		ON UPDATE CASCADE,
 	CONSTRAINT Check_price
 		CHECK(price >= 0),
-	CONSTRAINT Check_number_of_copires
+	CONSTRAINT Check_number_of_copies
 		CHECK(number_of_copies >= 0)
 );
 
